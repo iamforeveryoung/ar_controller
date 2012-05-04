@@ -1,3 +1,8 @@
+/*
+Written for the Julius Lab at Rensselaer Polytechnic Institute, Troy, NY 12180
+Allows reading of AR Drone Navdata and the sending of linear and angular velocity commands to the drone
+*/
+ 
 #include "ros/ros.h"
 #include "std_msgs/String.h"
 #include "std_msgs/Empty.h"
