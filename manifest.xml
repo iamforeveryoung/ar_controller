@@ -1,0 +1,19 @@
+<package>
+  <description brief="ardrone_control">
+
+     ardrone_control
+
+  </description>
+  <author>liuy14</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/ardrone_control</url>
+  <depend package="std_msgs"/>
+  <depend package="geometry_msgs"/>
+  <depend package="ardrone_brown"/>
+  <depend package="rospy"/>
+  <depend package="roscpp"/>
+
+</package>
+
+

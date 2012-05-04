@@ -1,0 +1,10 @@
+Hi!
+
+This project depends on ROS and the ardrone_brown package
+
+This is a ROS package designed to accept data from the AR Drone and send commands to drone_teleop to send Twist messages to the drone.
+
+Empty Messages are sent to initiate takeoff, landing, and reset
+
+Twist Messages, containing linear and angular velocities in the x, y, z axes, are sent to cmd_vel
+The recommended values for theres commands is a magnitude of under 1.
