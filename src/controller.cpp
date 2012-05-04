@@ -1,5 +1,7 @@
 /*
 Written for the Julius Lab at Rensselaer Polytechnic Institute, Troy, NY 12180
+Please cite if you use this code
+
 Allows reading of AR Drone Navdata and the sending of linear and angular velocity commands to the drone
 */
  
