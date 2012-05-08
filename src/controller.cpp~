@@ -1,5 +1,7 @@
 /*
 Written for the Julius Lab at Rensselaer Polytechnic Institute, Troy, NY 12180
+Please cite if you use this code
+
 Allows reading of AR Drone Navdata and the sending of linear and angular velocity commands to the drone
 */
  
@@ -92,13 +94,14 @@ public:
     //test responder to received navdata        
     void droneResponder()
     {
+        /*
         if(cur_alt < 700 && cur_alt > 300)
         {
             sendCmd(0, 0, .5, 0, 0, 0);
         }       
         else if(cur_alt >= 700)
         {    
-            //sendCmd(0, 0, 0, 0, 0, 1);
+            // sendCmd(0, 0, 0, 0, 0, 1);
             lander();
             //stabilize();
 
@@ -108,6 +111,11 @@ public:
            //stabilize();          
            //launcher();
            
+        }
+        */
+        if(cur_alt < 500)
+        {
+            lander();
         }
     }
     
